@@ -1,8 +1,10 @@
 package com.patient.registration;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name =  "tb_registration")
 public class PatientModel {
 
     long id;
