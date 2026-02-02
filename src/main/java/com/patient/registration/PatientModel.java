@@ -1,7 +1,11 @@
 package com.patient.registration;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class PatientModel {
 
+    long id;
     String firstName;
     String lastName;
     int age;
