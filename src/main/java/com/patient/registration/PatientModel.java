@@ -1,12 +1,14 @@
 package com.patient.registration;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name =  "tb_registration")
 public class PatientModel {
 
+    @Id
     long id;
     String firstName;
     String lastName;
