@@ -1,14 +1,13 @@
 package com.patient.registration;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name =  "tb_registration")
 public class PatientModel {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
     String firstName;
     String lastName;
