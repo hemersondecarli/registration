@@ -1,4 +1,4 @@
-package com.patient.registration;
+package com.patient.registration.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
