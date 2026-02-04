@@ -1,4 +1,4 @@
-package com.patient.registration;
+package com.patient.registration.model;
 
 import jakarta.persistence.*;
 
