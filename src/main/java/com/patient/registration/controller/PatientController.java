@@ -10,6 +10,6 @@ public class PatientController {
 
     @GetMapping("/welcome")
     public String greetings(){
-        return "Welcome to the first page";
+        return "Greetings";
     }
 }
