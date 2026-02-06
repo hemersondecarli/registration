@@ -15,7 +15,7 @@ public class DiseaseModel {
     private String description;
     private String severity;
 
-    @OneToMany
+    @OneToMany(mappedBy = "disease")
     private List<PatientModel> patient;
 
     public DiseaseModel(){
