@@ -1,6 +1,9 @@
 package com.patient.registration.Disease;
 
+import com.patient.registration.Patients.PatientModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "tb_disease")
@@ -11,6 +14,9 @@ public class DiseaseModel {
     private String name;
     private String description;
     private String severity;
+
+    @OneToMany
+    private List<PatientModel> patient;
 
     public DiseaseModel(){
 
