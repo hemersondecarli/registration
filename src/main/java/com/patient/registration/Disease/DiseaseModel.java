@@ -1,7 +1,12 @@
 package com.patient.registration.Disease;
 
-public class DiseaseModel {
+import jakarta.persistence.*;
 
+@Entity
+@Table(name = "tb_disease")
+public class DiseaseModel {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String description;
