@@ -16,6 +16,7 @@ public class PatientModel {
     private int age;
 
     @ManyToMany
+    //Foreign Key
     @JoinColumn(name = "disease_id")
     private DiseaseModel disease;
 
