@@ -16,6 +16,7 @@ public class PatientModel {
     private int age;
 
     @ManyToMany
+    @JoinColumn(name = "disease_id")
     private DiseaseModel disease;
 
     public PatientModel() {
