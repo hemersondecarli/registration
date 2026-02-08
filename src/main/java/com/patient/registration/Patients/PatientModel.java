@@ -20,6 +20,10 @@ public class PatientModel {
     private String firstName;
     private String lastName;
     private int age;
+    private String gender;
+    private String email;
+    private String phone;
+    private String address;
 
     @ManyToMany
     //Foreign Key
