@@ -23,6 +23,7 @@ public class DiseaseModel {
     private String name;
     private String description;
     private String severity;
+    private String treatment;
 
     @OneToMany(mappedBy = "disease")
     private List<PatientModel> patient;
