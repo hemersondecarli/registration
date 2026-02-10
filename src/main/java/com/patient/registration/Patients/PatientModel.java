@@ -25,7 +25,7 @@ public class PatientModel {
     private String phone;
     private String address;
 
-    @ManyToMany
+    @ManyToOne
     //Foreign Key
     @JoinColumn(name = "disease_id")
     private DiseaseModel disease;
