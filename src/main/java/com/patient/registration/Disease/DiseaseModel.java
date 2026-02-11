@@ -10,7 +10,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "tb_disease")
-//Getters Setters
+//Getters & Setters
 @Data
 //Constructor no arguments
 @NoArgsConstructor
